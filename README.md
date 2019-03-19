@@ -21,3 +21,7 @@ pack 打包命令的第三个参数是光猫设备名，一般为配置文件名
 - 操作有风险，请做好备份工作之后再继续。
 - 只在电信光猫 ZXHN F450 v2.0 上测试过。使用工具解包再打包回 cfg 文件，与光猫生成的 cfg 文件相同，修改后的重新打包的 cfg 文件也可以被光猫正确读取。
 - 建议使用此工具解包而不是选择 [offzip](http://aluigi.altervista.org/mytoolz/offzip.zip) 等工具，因为解包代码中有仔细的校验逻辑，不兼容的 cfg 文件会有提示。
+
+### 感谢
+
+- [https://github.com/wx1183618058/ZET-Optical-Network-Terminal-Decoder](https://github.com/wx1183618058/ZET-Optical-Network-Terminal-Decoder)
