@@ -1,0 +1,15 @@
+[package]
+name = "ctce8_cfg_tool"
+version = "0.1.0"
+authors = ["spoon"]
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+bincode = "1.1"
+crc = "1.8"
+flate2 = { version = "1.0", features = ["zlib"], default-features = false }
+clap = "2.32"
+
+[profile.release]
+panic = 'abort'
